@@ -12734,13 +12734,14 @@ a#scroll-btn:after {
   }
   a#scroll-btn {
     position: absolute;
-    height: 4em;
-    width: 2.25em;
-    border: 0.2em solid #ffffff;
+    height: 2.5em;
+    width: 1.2em;
+    border: 0.1em solid #ffffff;
     margin: auto;
-    left: 1em;
+    left: 0;
     right: 0;
-    bottom: -6em;
+    bottom: -5.5em;
     border-radius: 3em;
   }
+  
 }
