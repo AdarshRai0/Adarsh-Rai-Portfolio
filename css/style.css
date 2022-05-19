@@ -12680,9 +12680,9 @@ body.hide-scrolling {
 
 a#scroll-btn {
   position: absolute;
-  height: 4em;
-  width: 2.25em;
-  border: 0.2em solid #ffffff;
+  height: 2.2em;
+  width: 1.2em;
+  border: 0.1em solid #ffffff;
   margin: auto;
   left: 36em;
   right: 0;
@@ -12695,19 +12695,22 @@ a#scroll-btn:before {
   margin: auto;
   left: 0;
   right: 0;
-  top: 1.2em;
-  height: 1.2em;
-  width: 1.2em;
-  background-color: #ffffff;
+  top:0.5em;
+  height: 0.45em;
+  width: 0.6em;
+  background-color: #e98b2c;
   border-radius: 50%;
-  animation: move-down 2s infinite;
+  animation: move-down 2s infinite ease-in-out;
 }
 @keyframes move-down {
+  30% {
+    opacity: 1;
+  }
   80% {
     opacity: 0.5;
   }
   100% {
-    transform: translateY(1.1em);
+    transform: translateY(0.9em);
     opacity: 0;
   }
 }
@@ -12716,10 +12719,10 @@ a#scroll-btn:after {
   content: "CLICK HERE";
   width: 12em;
   display: block;
-  width: 12em;
+  width: 10em;
   text-align: center;
-  left: -5.2em;
-  bottom: -2.5em;
+  left: -5em;
+  bottom: -1.9em;
   font-size: 1.4em;
   color: #ffffff;
   letter-spacing: 3px;
