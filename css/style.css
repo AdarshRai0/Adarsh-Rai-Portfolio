@@ -11646,8 +11646,8 @@ h5,
   }
 }
 .project .text .viewers a {
-  padding: 5px 7px;
-  font-size: 11px;
+  padding: 10px 14px;
+  font-size: 10px;
 }
 .project {
   width: 100%;
@@ -11741,7 +11741,7 @@ h5,
     color: rgba(255, 255, 255, 0.8);
   }
   .project .text .viewers a {
-    padding: 6px 7px;
+    padding: 8px 16px;
   }
 }
 .project:hover .overlay,
